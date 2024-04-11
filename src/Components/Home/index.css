@@ -110,3 +110,34 @@ color:white;
   margin-bottom: 5px;
   margin-right: 5px;  
 }
+.filters-card {
+  list-style-type: none;
+  display: flex;
+}
+.filter {
+  margin: 5px;
+  border: solid 1px #e6e4e5;
+  padding: 9px 23px 5px 23px;
+  text-align: center;
+  border-radius: 5px;
+  font-size:19px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.offer-icon {
+  color:#e6e4e5;
+  font-size: 26px;
+  margin-right: 5px;
+}
+.offer-filter{
+  margin: 5px;
+  border: solid 1px #e6e4e5;
+  padding: 9px 23px 5px 23px;
+  text-align: center;
+  border-radius: 5px;
+  font-size:19px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+ 
+}
