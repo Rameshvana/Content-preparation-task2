@@ -8,6 +8,9 @@ import { BiSolidOffer } from "react-icons/bi";
 import { useEffect,useState } from "react";
 import './index.css'
 import { getApiData } from "../../servises/context";
+import RestarentCard from "../RestatentCard";
+import HeaderComponent from "../Header";
+import FooterComponent from "../Footer";
 
 function HomeComponent(){
    
@@ -17,7 +20,7 @@ function HomeComponent(){
   const callThedata  = () => {
      getApiData()
      .then((res) => {
-        alert('Get the data successfully')
+        //alert('Get the data successfully')
         setrestarent(res.data)
      })
      .catch(() => {
@@ -30,24 +33,14 @@ function HomeComponent(){
   },[])
 
     return (
-       <div>
-        <div className='bg-card'>
-            <img src='https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png' className="a1"/>
-            <div className="serch-card">
-                <input type='text' placeholder='Search your Service here' className='input-service-serch'/>
-                <FcSearch className="serch-icon"/>
-            </div>
-            <ul className="user">
-              <li className="user-icon"><SiGoogletranslate/></li> 
-              <li className="user-icon"><FaUser/></li>
-              <li className="login">Log In</li>
-              <li className="singup">Sing Up</li>
-            </ul>
-        </div>
+      <div>
+      <HeaderComponent/>
+       
+
         <div className="bc">
           <h3 >Showing Results for Restaunts in Abu Dhabi</h3>
           <div className="count-card">
-            <h3 className="place-card">Places:<span className="span-el">10</span></h3>
+            <h3 className="place-card">Places:<span className="span-el">{restarent.length}</span></h3>
             <div className="location">
              <IoLocationSharp className="location-icon"/>   
              <p>View on Map</p>
@@ -62,8 +55,15 @@ function HomeComponent(){
          <li className="filter">Fine Dining</li>
          <li className="offer-filter"><span><BiSolidOffer className="offer-icon"/></span> Great Offers</li>
         </ul>
+        <div>
+        <ul className='restarents-card'>
+          {restarent.map((item ) => (
+            <RestarentCard item={item}  key={item.id}/>
+          ))}
+          </ul>
+        </div>
 
-
+        <FooterComponent/>
        </div> 
     )
 }

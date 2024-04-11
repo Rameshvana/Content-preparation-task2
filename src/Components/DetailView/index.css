@@ -1,0 +1,116 @@
+.image-card1 {
+    height: 49vh;
+    width:50vw;
+    border-radius: 13px;
+}
+.detail-view {
+    border: solid 0px black;
+}
+.detail-view-card {
+ display: flex;
+ justify-content: center;
+ margin:25px;   
+}
+.name {
+    font-size: 22px;
+    font-style: unset;
+    
+}
+
+.lo {
+    color:#b7b7b7 ;
+    font-weight: 500;
+    line-height: 14px;
+    font-size: 17px;
+}
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;  
+}
+.detail-icon {
+    color:#1a1819;
+    font-size: 24px;
+    margin-right: 5px;
+  }
+.item{
+    border: solid 2px #e6e4e5;
+    margin-right: 10px;
+    margin-right: 10px;
+    padding: 7px 23px 5px 23px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+}  
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+.menu-item {
+  font-size: 17px;
+  font-weight: 500; 
+  cursor: pointer; 
+  margin:25px 85px 1px 1px;
+}
+.menu_dynamic{
+    font-size: 19px;
+    font-weight: 500; 
+    cursor: pointer; 
+    margin:25px 85px 1px 1px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    color: #df143c ; 
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 700;
+}
+.para1{
+ color: #b7b7b7;
+ font-size: 16px;
+}
+.infor {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ list-style-type: none;
+ border:solid 1px white;
+ width:25vw; 
+ font-size: 16px;
+ font-weight: 500;  
+}
+.verif{
+    font-size: 20px;
+    font-weight: 500;
+    color:lightgreen;
+    padding-right: 8px;
+}
+.a {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.contact-card {
+border:solid 1px black;
+width:12vw;
+margin: 5px;
+border-radius: 10px;
+}
+.con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:18px;
+  font-weight: 500;
+  padding: 5px;
+cursor: pointer;  
+}
+
+.rame {
+   display: flex;
+   justify-content: space-between; 
+}

@@ -1,0 +1,68 @@
+.bg-card{
+    background-color: #e6e4e5 ;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;  
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-family: "Times New Roman", Times, serif;
+  
+  }
+  .findbubai-icon {
+      height: 13vh;
+      border-radius: 50px;
+  }
+  .input-service-serch {
+   outline: none;
+   border-width: 0px;
+   background-color: transparent;
+   width:22vw;
+  }
+  .serch-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 32px;  
+    border-radius: 20px;
+    padding: 5px 12px 5px 10px ;
+  }
+  
+
+  .serch-icon {
+    font-size: 18px;
+    cursor: pointer;  
+  }
+  .user {
+      list-style-type: none;
+      display: flex;
+      margin-right:10px;
+  }
+  .singup {
+    border: solid;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    border-width:0px;
+    padding: 5px;
+    width:5vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left:20px;
+  }
+  .login {
+      font-size: 19px;
+      margin-top: 5px;
+      cursor: pointer;
+  
+  }
+  .user-icon {
+   font-size: 21px;
+   margin:6px 29px 0px 0px;
+   cursor: pointer;
+  color:white;   
+  }
+  .a1 {
+    height: 4vh;
+    cursor: pointer;  
+  }
