@@ -28,3 +28,14 @@ export function UpdateData(id,data){
   console.log(Update_url)
   return axios.put(Update_url,data)
 }
+
+
+
+
+
+
+let  save_booking_url = 'http://localhost:8000/save-bookings'
+
+export function saveBookingsData(data){
+  return axios.post(save_booking_url,data)       
+}

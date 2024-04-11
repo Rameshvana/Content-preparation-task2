@@ -61,7 +61,7 @@
     cursor: pointer; 
     margin:25px 85px 1px 1px;
     padding-bottom: 5px;
-    text-decoration: underline;
+    text-decoration:dotted;
     color: #df143c ; 
 }
 
@@ -114,3 +114,93 @@ cursor: pointer;
    display: flex;
    justify-content: space-between; 
 }
+
+.input {
+    padding: 16px;
+    border-radius: 7px;
+    outline: none;
+    border-color: #b7b7b7;
+    width:20vw;
+    font-size:15px;
+}
+
+.name-inputEl {
+  padding: 16px;
+  border-radius: 7px;
+  outline: none;
+  border-color: #b7b7b7;
+  width:20vw;
+  margin-right: 40px;
+  font-size:15px;  
+}
+.email-inputEl {
+    padding: 16px;
+    border-radius: 7px;
+    outline: none;
+    border-color: #b7b7b7;
+    width:20vw;
+    margin-right: 40px;
+    font-size:15px;
+  }
+.number-code {
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    border-color: #b7b7b7;
+    width:2vw;
+    font-size:15px;
+    margin-right: 5px;
+}
+.phone-inputEl {
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    border-color: #b7b7b7;
+    width:238px;
+    font-size:15px;
+  }  
+  .phon-input-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .select-inputEl {
+   width:23vw;
+  }
+  .textarea-El {
+    border-radius: 8px;
+    outline: none;
+    font-size:17px;
+  }
+  .btn {
+    background-color:  #17a9ff ;
+    border-width: 0px;
+    padding: 17px;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+    width:13vw;
+    cursor: pointer;
+    font-size:21px;
+    margin:10px 0px 4px 0px;
+  }
+  .book-btn {
+    text-align: center;
+  }
+
+  .mom-input {
+   display: flex;
+   align-items: center;
+   margin-top: 35px;
+  }
+  .error-para {
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(230, 64, 64);
+    line-height: 0px;
+    margin-left:6px;
+  }
+  .menu-img {
+    height: 45vh;
+    border-radius: 5px;
+  }
